@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
-import { section } from "framer-motion/client";
 
 const Hero = () => {
   return (
@@ -20,7 +19,7 @@ const Hero = () => {
             Hi, I&apos;m <span className='text-[#915EFF]'>Sujal</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a passionate Full Stack Developer with a keen interest in building scalable and efficient web applications.
+            I am a Full Stack Developer with a keen interest in building scalable and efficient web applications.
           </p>
         </div>
       </div>
