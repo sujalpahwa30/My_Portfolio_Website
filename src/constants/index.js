@@ -13,16 +13,12 @@ import {
     mongodb,
     git,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     threejs,
     linux,
     mysql,
     nike,
-    ai,
     car,
+    gaming,
   } from "../assets";
   
   export const navLinks = [
@@ -114,85 +110,30 @@ import {
     }
   ];
   
-  const experiences = [
-    {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
   const projects = [
     {
-      name: "Self Driving Car",
+      name: "Zentry : A Gaming Website",
       description:
-        "Developed a self-driving car simulation with vanilla JavaScript, featuring a neural network for autonomous driving behavior.",
+        "Created a Metaverse Gaming website using React and GSAP having cool and nice animations in it.",
       tags: [
         {
-          name: "html",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "javascript",
+          name: "gsap",
           color: "pink-text-gradient",
         },
       ],
-      image: car,
-      source_code_link: "https://github.com/sujalpahwa30/Self_Driving_Car_JS",
+      image: gaming,
+      live_project_link: "https://zentry-gaming-website-psi.vercel.app/",
     },
     {
-      name: "Nike Landing Page",
+      name: "Nike : A Landing Page Website",
       description:
         "Created a Nike Landing Page using React and Tailwind CSS which includes a responsive design to enhance user experience.",
       tags: [
@@ -210,29 +151,29 @@ import {
         },
       ],
       image: nike,
-      source_code_link: "https://github.com/sujalpahwa30/Nike_Landing_Page_Website",
+      live_project_link: "https://nike-landing-page-website.vercel.app/",
     },
     {
-      name: "AI Image Generation App",
+      name: "Self Driving Car Simulation Website",
       description:
-        "Created a AI image generation web application using the MERN stack, which allows users to generate images using AI.",
+        "Developed a self-driving car simulation with vanilla JavaScript, featuring a neural network for autonomous driving behavior.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "express",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: ai,
-      source_code_link: "https://github.com/sujalpahwa30/AI_Image_Generation_App",
+      image: car,
+      live_project_link: "https://self-driving-car-js-mu.vercel.app/",
     },
   ];
   
-  export { services, technologies, experiences, projects };
+  export { services, technologies, projects };
